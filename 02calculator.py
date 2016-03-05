@@ -73,3 +73,6 @@ while (True):
 
     else:
         print ('not a match, please enter a new expression in the correct form')
+
+    if (expr.find("end") != -1):
+        break
