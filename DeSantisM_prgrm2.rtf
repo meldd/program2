@@ -1,0 +1,13 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf340
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Melanie DeSantis\
+Report - Program 2\
+CSC 201\
+\
+The objectives of this program were to create a simple calculator without using the built in eval function in python.  The operations thus must be performed by splicing the input expression at the position of the operator - whether it be any of the following: +, -, *, /.  Each of the operands is embedded into a for loop, with the program moving past each for loop until it matches the operator. From there, the expression is spliced, saving each of the numerical values as a variable, and, converting the operator to the actual operator and performing the math.  It then prints the answer. The if and elif statements are embedded into a while loop that evaluates the expression to be sure it has been input correctly.  It removes spaces using a reg ex operation to replace them with nothing. I also attempted to use reg ex to remove parentheses, by checking for any non-alphanumeric character other than the operators, but these fail to work properly.  \
+\
+Presumably to have the code handle and interpret more complex expressions, i.e. (12+8)*(6-4), by breaking the expression into pieces, storing the individual pieces as multiple variables like \'93expr\'94 in my code.  It would perform the function on the first piece, store the answer as Value1, reform the math on the second piece, store the answer as value 2, and then, drawing the final operator from where it should also have been stored, perform the final math and print the final answer for the user.}
